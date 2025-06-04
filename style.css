@@ -162,4 +162,49 @@ body {
   .card button:hover {
     background-color: #8a2be2;
   }
+  .contact-section {
+    background-color: #0d001f;
+    padding: 80px;
+    color: white;
+    text-align: left;
+  }
+  
+  .contact-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1em;
+    color: #ccc;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  
+  .contact-section .email {
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .social-icons {
+    margin-top: 30px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.2);
+  }
+  
   
